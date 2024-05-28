@@ -1,0 +1,24 @@
+{
+  "name": "mongoflood",
+  "version": "0.0.6",
+  "description": "A mongodb/mongoose utility to flood/insert fake data into mongodb collections for testing purposes. the tool makes use of mongoose schema to understand the collection and inserts data into the database",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "bin": {
+    "mongoflood": "./index.js"
+  },
+  "author": "iam-abdul",
+  "license": "MIT",
+  "dependencies": {
+    "directory-tree": "^3.5.1",
+    "mongodb": "^6.6.2",
+    "mongoose": "^8.4.0",
+    "mongoose-parser": "^0.0.11",
+    "nodemon": "^3.1.1",
+    "uuid": "^9.0.1"
+  }
+}
